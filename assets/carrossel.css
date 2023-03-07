@@ -1,0 +1,105 @@
+ .carrossel__titulo{
+    color: var(--verde);
+    background-color: var(--preto);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 1em 0 1em 0;
+ }
+
+ .swiper-slide img{
+    width: 100%;
+
+ }
+
+ .swiper-button-prev, .swiper-button-next{
+    display: none;
+ }
+
+ .swiper-pagination{
+    position: initial;
+    margin: 0.6em 0;
+    
+ }
+
+ .card__descricao{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+ }
+.descricao__imagem{
+    height:140px;
+    border-radius:10px;
+}
+ .item__logo-imdb{
+    width:100px;
+    height: 52px;
+ }
+
+ .card__botoes{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .botoes{
+    display: flex;
+ }
+
+ .card{
+    background: var(--preto);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin:1em;
+    color: var(--verde);
+    padding: 1em;
+ }
+
+ .descricao__titulo{
+    font-size: 1rem;
+    font-weight: 700;
+
+ }
+
+ .descricao__titulo-filme{
+    color: #E8E8E8;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0.7em 0
+ }
+
+ .descricao__texto{
+    font-size: .9rem;
+
+ }
+
+ .botoes__ancora{
+    background-color: var(--verde);
+    padding: 1.3em 1.7em;
+    color: var(--preto);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+ }
+
+ @media screen and (min-width: 1024px) {
+   .carrossel__titulo{
+      font-size: 1.5rem;
+   }
+
+  .swiper{
+   width: 60%
+  }
+
+  .swiper-button-prev, .swiper-button-next{
+   display: block;
+   top: 55%
+  }
+  
+  .card{
+   width: 40%;
+   margin: 2em auto;
+  }
+
+
+ }

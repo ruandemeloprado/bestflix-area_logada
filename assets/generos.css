@@ -1,0 +1,43 @@
+.generos{
+    background: var(--preto);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.generos__titulo{
+    color: var(--verde);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 1em;
+}
+
+.generos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.generos__item{
+    margin: 2em 0.5em;
+    
+}
+
+.generos__link{
+    color: black;
+    padding: 1em;
+    background-color: var(--verde);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px){
+
+    .generos__titulo{
+        font-size:1.5rem;
+    }
+
+    
+    
+}

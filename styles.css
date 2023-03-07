@@ -1,0 +1,27 @@
+@import url("./assets/header.css");
+
+
+:root{
+    --cor-de-fundo: #151615;
+    --preto: #000000;
+    --verde: #00E900;
+    --branco: #FFFFFF;
+    --cinza-gradiente: linear-gradient(97.54deg, #FFFFFF 35.49%, #969696 165.37%);
+    --fonte-principal: 'Montserrat', sans-serif;
+    --verde-gradiente: linear-gradient(97.54deg, #00e900 35.49%, #398332 165.37%);
+    --fonte-secundaria:'Gajraj One', cursive;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cabecalho__logo{
+    width:48px;
+    height: 50px;
+}
+
+
